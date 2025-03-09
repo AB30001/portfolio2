@@ -1,7 +1,23 @@
 {
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass sass/style.scss:css/style.css --style=compressed",
+    "watch": "sass --watch sass/style.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.0-beta1",
-    "node-sass": "^7.0.1",
-    "sass": "^1.52.2"
+    "bootstrap": "^5.2.0-beta1"
+  },
+  "devDependencies": {
+    "sass": "^1.69.7"
   }
 }
