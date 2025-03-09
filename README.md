@@ -30,21 +30,18 @@ This page must:
 1. Clone the repo:
 
 ```bash
-git clone
+git clone https://github.com/AB30001/portfolio2
 ```
 
-2. Install the dependencies:
-
-```
-npm install
 ```
 
 ### Running
 
 Using the liveServer extension for VScode:
 
-Right click on the index.html and click view in live server. This will open [http://localhost:3000](http://localhost:3000) in your browser where you can see the result.
+Right click on the index.html and click view in live server.
 
 ## Contact
 
 arnasb30001@gmail.com
+```
